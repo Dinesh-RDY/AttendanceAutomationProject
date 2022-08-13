@@ -2,7 +2,7 @@ import requests
 import cv2
 import numpy as np
 from pyzbar.pyzbar import decode
-
+import datetime as dt
 cap = cv2.VideoCapture(0)
 myData = ''
 while True:
