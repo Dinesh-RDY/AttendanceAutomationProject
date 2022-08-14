@@ -11,4 +11,4 @@ const subjects = new schema({
     },
 })
 
-module.exports = mongoose.model("subject", subjects);
+module.exports = mongoose.model("Subject", subjects);

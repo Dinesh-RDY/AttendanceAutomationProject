@@ -17,7 +17,10 @@ const student = new schema({
     //     required: true,
     // },
     subjects: [{
-        id: mongoose.Schema.Types.ObjectId,
+        sid: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: "Subject"
+        },
         attendance: {
             type: Number,
             default: 0
